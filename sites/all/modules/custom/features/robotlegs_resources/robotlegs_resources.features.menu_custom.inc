@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * resources_feature.features.menu_custom.inc
+ * robotlegs_resources.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function resources_feature_menu_default_menu_custom() {
+function robotlegs_resources_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: main-menu

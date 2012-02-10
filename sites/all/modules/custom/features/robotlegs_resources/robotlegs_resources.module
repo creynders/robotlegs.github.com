@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Robotlegs resources feature.
+ */
+
+include_once('robotlegs_resources.features.inc');

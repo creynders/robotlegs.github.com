@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * resources_feature.features.menu_links.inc
+ * robotlegs_resources.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function resources_feature_menu_default_menu_links() {
+function robotlegs_resources_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu:resources

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * resources_feature.features.field.inc
+ * robotlegs_resources.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function resources_feature_field_default_fields() {
+function robotlegs_resources_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-resource_extension-body'

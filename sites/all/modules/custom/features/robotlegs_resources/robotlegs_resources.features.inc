@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * resources_feature.features.inc
+ * robotlegs_resources.features.inc
  */
 
 /**
  * Implements hook_content_type_groups_features_default_settings().
  */
-function resources_feature_content_type_groups_features_default_settings() {
+function robotlegs_resources_content_type_groups_features_default_settings() {
  $content_type_groups = array();
 
  $content_type_groups['resources'] = array(
@@ -35,7 +35,7 @@ function resources_feature_content_type_groups_features_default_settings() {
 /**
  * Implements hook_views_api().
  */
-function resources_feature_views_api() {
+function robotlegs_resources_views_api() {
   list($module, $api) = func_get_args();
   if ($module == "views" && $api == "views_default") {
     return array("version" => "3.0");
@@ -45,7 +45,7 @@ function resources_feature_views_api() {
 /**
  * Implements hook_node_info().
  */
-function resources_feature_node_info() {
+function robotlegs_resources_node_info() {
   $items = array(
     'resource_extension' => array(
       'name' => t('Resource: Extension'),
