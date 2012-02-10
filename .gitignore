@@ -1,8 +1,13 @@
-*
+/*
+!sites
+sites/*
+!sites/all
+sites/all/*
+!sites/all/modules
+sites/all/modules/*
 !sites/all/modules/custom
-!sites/all/themes
 
-#-- DO NOT REMOVE
+#-- DO NOT REMOVE -- FALLBACK IN CASE ABOVE RULES FAIL
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 
